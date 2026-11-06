@@ -4,6 +4,8 @@ WORKDIR /usr/src/app
 
 EXPOSE 5001 
 
+ENV REACT_APP_BACKEND_URL=http://localhost:8080
+
 COPY 1_12 .
 
 RUN apt-get update && apt-get install -y curl
