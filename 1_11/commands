@@ -1,1 +1,2 @@
+docker build -t simple-button .
 docker run -p 8080:8080 simple-button
